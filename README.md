@@ -2,9 +2,10 @@
 
 The Monty Hall Problem is a classic probability puzzle that people often find unintuitive. The basic premise is taken from the game show “Let’s Make a Deal” and the problem get’s its name from the show’s host, Monty Hall. At the end of the show, the grand prize (car) was hidden behind one of three doors. The other two doors concealed much less desirable prizes called “zonks.” For the purposes of my analysis, I have taken the zonks to be goats. 
 
-![llama, not goat](https://github.com/amitschelen/Monty-Hall/blob/main/2009lmadzonkgoat.jpg?raw=true)
 
-(llama, not a goat.  Photo from Wikipedia: https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal#/media/File:2009lmadzonkgoat.jpg)
+*(nb: not a goat)*
+
+[Photo from Wikipedia](https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal#/media/File:2009lmadzonkgoat.jpg)
 
 ## Probabilities
 So…three doors…one prize…two zonks.  Contestants first pick one of the three doors. This has a 1/3 probability of concealing the prize. But the twist is that the host then opens one of the other doors. The other door is always a zonk and never the door that was already picked. The contestant is then given the opportunity to stick with their original selection or switch to the remaining unopened door. This is where things get interesting. Many people incorrectly judge the probability associated with switching doors. Some people reason that that the car is behind one of the doors, so there’s a 50/50 chance either way so it doesn’t matter. Some people think that it’s still a 1/3 probability that the car is behind either door. But neither of these are correct.
