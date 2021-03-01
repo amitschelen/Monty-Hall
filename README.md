@@ -1,7 +1,8 @@
 ## The Monty Hall Problem
 
 The Monty Hall Problem is a classic probability puzzle that people often find unintuitive. The basic premise is taken from the game show “Let’s Make a Deal” and the problem get’s its name from the show’s host, Monty Hall. At the end of the show, the grand prize (car) was hidden behind one of three doors. The other two doors concealed much less desirable prizes called “zonks.” For the Monty Hall Problem, the zonks are typically said to be goats. 
-![llama, not goat](https://github.com/amitschelen/Monty-Hall/blob/main/image.jpg?raw=true)
+![llama, not goat](https://github.com/amitschelen/Monty-Hall/blob/main/2009lmadzonkgoat.jpg?raw=true)
+
 (llama, not a goat.  Photo from Wikipedia: https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal#/media/File:2009lmadzonkgoat.jpg)
 
 # Probabilities
@@ -14,5 +15,7 @@ I was curious how the Monty Hall problem worked with more than three doors. It s
 For n doors, the probability of getting the prize without switching is just 1/n. The results of the model show that the formula for getting the prize by switching is always (n-1)/n(n-2). I interpret this as the product of two events; First you pick a door with a zonk (if you pick the car first then switch, you definitely lose) which has (n-1)/n probability (n-1 zonks out of n doors). Then you switch to the car and that has 1/(n-2) probability (1 car out of the n-2 remaining available doors). This gives the following probabilities of winning the car for 3, 4, and 5 doors. Explore the model to find probabilities for more doors.
 
 3 doors - Don’t switch:   1/3   Switch:   2/3
+
 4 doors – Don’t switch:   1/4   Switch:   3/8
+
 5 doors – Don’t switch:   1/5   Switch:   4/15
