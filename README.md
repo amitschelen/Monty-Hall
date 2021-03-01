@@ -1,7 +1,7 @@
 ## The Monty Hall Problem
 
 The Monty Hall Problem is a classic probability puzzle that people often find unintuitive. The basic premise is taken from the game show “Let’s Make a Deal” and the problem get’s its name from the show’s host, Monty Hall. At the end of the show, the grand prize (car) was hidden behind one of three doors. The other two doors concealed much less desirable prizes called “zonks.” For the Monty Hall Problem, the zonks are typically said to be goats. 
- ##![Uploading 2009lmadzonkgoat.jpg…]()
+![llama, not goat](https://github.com/amitschelen/Monty-Hall/blob/main/image.jpg?raw=true)
 (llama, not a goat.  Photo from Wikipedia: https://en.wikipedia.org/wiki/Let%27s_Make_a_Deal#/media/File:2009lmadzonkgoat.jpg)
 
 # Probabilities
